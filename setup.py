@@ -29,7 +29,9 @@ setuptools.setup(
         'pandas',
         'diffdist>=0.1',
         'Cython>=0.29.30',
-        'faiss-gpu>=1.7.2',
+        'faiss-cpu>=1.7.2',
+        'numpy==1.25.2',
+        'statsmodels'
         'gdown>=4.7.1',  # 'libmr>=0.1.9'
     ],
     classifiers=[

@@ -2,6 +2,10 @@
 _test_*
 *-backup*
 
+# cc: ignore datassets
+*.zip
+cifar10_resnet18_32x32_base_e100_lr0.1_default/
+
 # ignore data and output directory
 data
 data/
